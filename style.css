@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sunset {
+    font-family: monospace;
+    font-size: 22px;
+    background-image: url("sunset5.jpg");
+    background-size: cover;
+    min-height: 600px;
+    min-width: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #EF8224;
+    text-shadow: -1px 1px 5px #000000;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: -30px 0;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.title {
+    display: flex;
+  }
+
+    .surfboard-icon {
+        flex-direction: row;
+    }
+
+.navbar-link-div {
+    margin-right: 20px;
+    }
+
+    .navbar-links a {
+        color: #ccc;
+        text-decoration: none;
+        padding: 0 10px;
+    }
+
+    .navbar-links a:hover {
+        color: white;
+    }
+    .navbar-links a:active {
+        color: white;
+        opacity: 0.2;
+    }
+    .navbar-links li {
+        list-style-type: none;
+        display: inline-flex;
+    }
+
+.sign-in {
+    width: 360px;
+    height: 280px;
+    position: relative;
+    margin: auto;
+    opacity: 0.9;
+    border-radius: 5px;
+    background-color: #333;
+    top: 25vmin;
+    box-shadow: -4px 4px 6px rgb(0, 0, 0);
+}
+
+.login {
+    font-size: 30px;
+    font-family:monospace;
+    font-weight: 600;
+    color: #EF8224;
+    text-shadow: -1px 1px 0.5px #b85804;
+    padding-top: 10px;
+}
+
+form input {
+    background-color: #111;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    border: #111 solid 1px;
+    transition: padding 300ms;
+}
+form input:hover {
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+}
+form input:focus {
+    padding: 10px 24px;
+    margin: 5px;
+    border-radius: 20px;
+    outline: none;
+}
+form button {
+    background-color: #24245a;
+    color: #EF8224;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 26px;
+    margin-top: 12px;
+}
+
+form button:hover {
+    background-color: #1b1b25;
+    color: #f07203;
+}
+form button:active {
+    background-color: #111118;
+    color: #ffffff;
+}
+.sign-up {
+    font-size: 14px;
+    margin-top: 20px;
+    color: white;
+}
+.sign-up a {
+    color: #ff871d;
+}
+.sign-up a:hover {
+    color: darkturquoise;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
